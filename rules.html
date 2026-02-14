@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta charset="utf-8">
+    <title>Правила - Dragon Repeller</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body { font-family: Arial, sans-serif; padding: 20px; background: #0a0a23; color: #fff }
+      .container { max-width: 800px; margin: auto; background: #111; padding: 20px; border-radius: 6px }
+      h1 { color: #feac32 }
+      code { background:#222; padding:2px 4px; border-radius:3px }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Dragon Repeller — Правила и инструкции</h1>
+      <p>Цел: Победи дракона, който блокира изхода от града.</p>
+
+      <h2>Основни статистики</h2>
+      <ul>
+        <li><strong>XP</strong> — опит (увеличава щетата чрез случайност)</li>
+        <li><strong>Health</strong> — живот; ако стигне 0, губиш</li>
+        <li><strong>Gold</strong> — злато за покупки</li>
+      </ul>
+
+      <h2>Къде да отидеш</h2>
+      <ul>
+        <li><strong>Town square</strong>: Go to store / Go to cave / Fight dragon</li>
+        <li><strong>Store</strong>: Buy 10 health (10 gold) / Buy weapon (30 gold) / Go to town square</li>
+        <li><strong>Cave</strong>: Fight slime / Fight fanged beast / Go to town square</li>
+      </ul>
+
+      <h2>Оръжия и инвентар</h2>
+      <p>Стартово: <code>stick</code> (power 5). Други: dagger (30), claw hammer (50), sword (100). Купуваш оръжие за 30 gold.</p>
+
+      <h2>Битка</h2>
+      <p>В битка използвай <em>Attack</em>, <em>Dodge</em> или <em>Run</em>. При атака първо поемаш щета, после при успех нанасяш щета на чудовището.</p>
+
+      <h2>Награди</h2>
+      <p>След победа: <code>gold += floor(level * 6.7)</code>, <code>xp += level</code>.</p>
+
+      <h2>Мини-игра (секретно)</h2>
+      <p>След победа над slime или fanged beast ще видиш бутон <strong>Secret game</strong>. Избери 2 или 8 — генерират се 10 случайни числа (0–10). Ако числото ти е сред тях — печелиш 20 gold; иначе губиш 10 health.</p>
+
+      <h2>Практически съвети</h2>
+      <ul>
+        <li>Побеждавай по-слаби противници за XP и gold преди да се изправиш срещу дракона.</li>
+        <li>Купувай здраве и оръжия когато имаш достатъчно gold.</li>
+        <li>Не продавай последното си оръжие.</li>
+      </ul>
+
+      <p><a href="index.html">Върни се към играта</a></p>
+    </div>
+  </body>
+</html>
